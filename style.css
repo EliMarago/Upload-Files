@@ -1,0 +1,125 @@
+body{
+    background-color: rgba(245, 163, 163, 0.853);
+}
+
+.container
+{
+    height: 600px;
+    width: 550px;
+    background-color: white;
+    margin-top: 90px;
+    border-radius: 20px 20px 20px 20px;
+}
+h1{
+    text-align: center;
+    padding: 12px;
+    font-size:35px;
+}
+p{
+    text-align: center;
+    font-size: 13px;
+}
+
+.card-box
+{
+    background-color: rgba(242, 240, 240, 0.697);
+    width: 390px;
+    height: 250px;
+   margin-left: 60px;
+   border: dashed 3px rgba(240, 137, 137, 0.795);
+}
+
+.bi-cloud-upload-fill
+{
+position: relative;
+margin-left: 130px;
+top: 20px;
+}
+
+.title-file
+{
+    padding: 14px;
+   font-size: 18px;
+}
+
+button{
+    margin-left: 120px;
+    border: none;
+    height: 30px;
+    width: 130px;
+    padding: 22px;
+    background-color: rgba(249, 202, 187, 0.902);
+    margin-top: -10px;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 10px rgb(183, 179, 179);
+
+}
+.button:hover{
+    background-color: rgb(252, 185, 162);
+}
+.uploaded
+{
+text-align: start;
+padding: 20px;
+font-size: 15px;
+}
+label
+{
+    display: block;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+progress {
+    width: 400px;
+    height : 10px;
+    border: 2px solid rgba(246, 142, 142, 0.683);
+    position: relative;
+    margin-left: 50px;
+    bottom: 7px;
+    border-radius: 10px 10px 10px;
+
+ }
+ progress::-webkit-progress-bar {
+    background-color: rgba(250, 179, 179, 0.851);
+ }
+ progress::-webkit-progress-value {
+    background-color: rgb(244, 93, 93);
+ }
+ .bi-images
+ {
+    margin-left: 10px;
+    color: rgb(235, 127, 145) !important;
+ }
+ .bi-file-earmark-pdf
+ {
+    margin-left: 10px;
+ }
+ [for="file-2"]{
+    margin-top:0px;
+ }
+ .bi-images-2
+ {
+ margin-top: -30px;
+ margin-left: 10px;
+ }
+
+ #progress{
+    margin-left: 8px;
+ }
+ .bi-check-circle-fill
+ {
+    position: relative;
+    margin-top: -19px;
+ }
+ .bi-x-circle
+ {
+   margin-top: -18px;
+   
+
+ }
